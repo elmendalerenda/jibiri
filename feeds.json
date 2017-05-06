@@ -1,0 +1,51 @@
+{
+  "api_version": 3,
+  "auth": 1,
+  "last_refreshed_on_time": 1494087677,
+  "items": [
+    {
+      "id": 9113,
+      "feed_id": 82,
+      "title": "RaspiAsteriskGoogle - Run Google Voice Assistant Via Asterisk PBX on Pi",
+      "author": "Instructables: exploring - Raspberry Pi",
+      "html": "<a href=\"http://www.instructables.com/id/RaspiAsteriskGoogle-Run-Google-Voice-Assistant-Via/\"><img src=\"https://cdn.instructables.com/F43/5IME/J282ZUXV/F435IMEJ282ZUXV.SMALL.jpg\" align=\"left\" hspace=\"10\"></a>OVERVIEWThis project is a proof-of-concept using Asterisk PBX, running on a Raspberry Pi, interfaced to Google Assistant™ Voice Service SDK &amp; API. Using a SIP Phone or SoftPhone, the user dials into their Raspberry Asterisk PBX extension and follows the prompts to speak questions which are sent to G...<br>By: <a href=\"http://www.instructables.com/member/rgrokett/\">rgrokett</a><br><br><a href=\"http://www.instructables.com/id/RaspiAsteriskGoogle-Run-Google-Voice-Assistant-Via/\">Continue Reading »</a>",
+      "url": "http://www.instructables.com/id/RaspiAsteriskGoogle-Run-Google-Voice-Assistant-Via/",
+      "is_saved": 0,
+      "is_read": 0,
+      "created_on_time": 1493853057
+    },
+    {
+      "id": 9118,
+      "feed_id": 37,
+      "title": "Bonnie Rochman: \"The Gene Machine: How Genetic Technologies Are Changing [...]\" | Talks at Google",
+      "author": "Talks at Google",
+      "html": "",
+      "url": "https://www.youtube.com/watch?v=XR7CU3BPuyo",
+      "is_saved": 0,
+      "is_read": 0,
+      "created_on_time": 1493849318
+    },
+    {
+      "id": 9119,
+      "feed_id": 37,
+      "title": "Xenia Rubinos: \"Black Terry Cat\" | Talks at Google",
+      "author": "Talks at Google",
+      "html": "",
+      "url": "https://www.youtube.com/watch?v=whxYSj29bw4",
+      "is_saved": 0,
+      "is_read": 0,
+      "created_on_time": 1493845696
+    },
+    {
+      "id": 9098,
+      "feed_id": 1,
+      "title": "Thieves drain 2fa-protected bank accounts by abusing SS7 routing protocol",
+      "author": "Ars Technica » Technology Lab",
+      "html": "<div id=\"rss-wrap\">\n<figure class=\"intro-image intro-left\"><img src=\"https://cdn.arstechnica.net/wp-content/uploads/2017/05/mtan-sms.jpg\"><p class=\"caption\" style=\"font-size: 0.8em;\"><a href=\"https://cdn.arstechnica.net/wp-content/uploads/2017/05/mtan-sms.jpg\" class=\"enlarge-link\" data-height=\"599\" data-width=\"746\">Enlarge</a> (credit: <a rel=\"nofollow\" class=\"caption-link\" href=\"https://commons.wikimedia.org/wiki/File:Packstation-SMS-9870.jpg\">Raimond Spekking</a>)</p>  </figure><div><a name=\"page-1\"></a></div>\n<p>A known security hole in the networking protocol used by cellphone providers around the world played a key role in a recent string of attacks that drained bank customer accounts, according to a report published Wednesday.</p>\n<p>The unidentified attackers exploited weaknesses in <a href=\"https://en.wikipedia.org/wiki/Signalling_System_No._7\">Signalling System No. 7</a>, a telephony signaling language that more than 800 telecommunications companies around the world use to ensure their networks interoperate. SS7, as the protocol is known, makes it possible for a person in one country to send text messages to someone in another country. It also allows phone calls to go uninterrupted when the caller is traveling on a train.</p>\n<p>The same functionality can be used to eavesdrop on conversations, track geographic whereabouts, or intercept text messages. Security researchers demonstrated this dark side of SS7 last year when they <a href=\"https://arstechnica.com/security/2016/04/how-hackers-eavesdropped-on-a-us-congressman-using-only-his-phone-number/\">stalked US Representative Ted Lieu</a> using nothing more than his 10-digit cell phone number and access to an SS7 network.</p>\n</div><p><a href=\"https://arstechnica.com/security/2017/05/thieves-drain-2fa-protected-bank-accounts-by-abusing-ss7-routing-protocol/#p3\">Read 6 remaining paragraphs</a> | <a href=\"https://arstechnica.com/security/2017/05/thieves-drain-2fa-protected-bank-accounts-by-abusing-ss7-routing-protocol/?comments=1\">Comments</a></p>",
+      "url": "https://arstechnica.com/security/2017/05/thieves-drain-2fa-protected-bank-accounts-by-abusing-ss7-routing-protocol/",
+      "is_saved": 0,
+      "is_read": 0,
+      "created_on_time": 1493840432
+    }
+	]
+}
