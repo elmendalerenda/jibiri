@@ -2,108 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>hello phaser!</title>
+        <title>jibiri</title>
         <script src="phaser.min.js"></script>
+        <script src="app.js"></script>
     </head>
     <body>
-
-    <script type="text/javascript">
-
-    window.onload = function() {
-
-        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
-        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
-        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
-
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
-
-        function preload () {
-
-
-					game.load.image('zone', 'platform.png');
-					game.load.image('eye', 'phaser.png');
-
-        }
-
-var card;
-var dropZone;
-var dragPosition;
-
-function create() {
-
-    dropZone = game.add.sprite(500, 0, 'zone');
-    dropZone.width = 300;
-    dropZone.height = 600;
-
-    card = game.add.sprite(100, 100, 'eye');
-		card.scale.setTo(0.4, 0.4);
-
-    card.inputEnabled = true;
-    card.input.enableDrag();
-
-    card.events.onInputOver.add(onOver, this);
-    card.events.onInputOut.add(onOut, this);
-    card.events.onDragStart.add(onDragStart, this);
-    card.events.onDragStop.add(onDragStop, this);
-
-    dragPosition = new Phaser.Point(card.x, card.y);
-
-}
-
-
-function onOver(sprite, pointer) {
-
-    sprite.tint = 0xff7777;
-    //game.add.tween(sprite).to( { angle: 45 }, 2000, Phaser.Easing.Linear.None, true);
-
-}
-
-function onOut(sprite, pointer) {
-
-    sprite.tint = 0xffffff;
-
-}
-
-function onDragStart(sprite, pointer) {
-
-    dragPosition.set(sprite.x, sprite.y);
-
-}
-
-function onDragStop(sprite, pointer) {
-
-    //if (!sprite.overlap(dropZone))
-    //{
-    //    game.add.tween(sprite).to( { x: dragPosition.x, y: dragPosition.y }, 500, "Back.easeOut", true);
-    //}
-     game.add.tween(sprite.scale).to( { x: 0, y: 0 }, 1000, Phaser.Easing.Linear.None, true);
-
-    card = game.add.sprite(100, 100, 'eye');
-		card.scale.setTo(0.4, 0.4);
-
-    card.inputEnabled = true;
-    card.input.enableDrag();
-
-    card.events.onInputOver.add(onOver, this);
-    card.events.onInputOut.add(onOut, this);
-    card.events.onDragStart.add(onDragStart, this);
-    card.events.onDragStop.add(onDragStop, this);
-
-    dragPosition = new Phaser.Point(card.x, card.y);
-
-
-    //sprite.destroy();
-
-
-}
-
-function update () {
-
-}
-
-    };
-
-    </script>
 
     </body>
 </html>
